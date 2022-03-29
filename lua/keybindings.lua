@@ -37,17 +37,17 @@ map("n", "<A-l>", "<C-w>l", opt)
 map('n', '<A-m>', ':NvimTreeToggle<CR>', opt)
 -- bufferline 左右Tab切换
 map("n", "<C-PageUP>", ":BufferLineCyclePrev<CR>", opt)
-map("i", "<C-PageUP>", ":BufferLineCyclePrev<CR>", opt)
+map("i", "<C-PageUP>", "<ESC>:BufferLineCyclePrev<CR>", opt)
 map("n", "<C-PageDown>", ":BufferLineCycleNext<CR>", opt)
-map("i", "<C-PageDown>", ":BufferLineCycleNext<CR>", opt)
+map("i", "<C-PageDown>", "<ESC>:BufferLineCycleNext<CR>", opt)
 map("n", "<M-S-Down>", "yyp", opt)
-map("i", "<M-S-Down>", "yyp", opt)
+map("i", "<M-S-Down>", "<ESC>yyp", opt)
 map("n", "<M-S-Up>", "yyP", opt)
-map("i", "<M-S-Up>", "yyP", opt)
+map("i", "<M-S-Up>", "<ESC>yyP", opt)
 map("n", "<A-Up>", ":m-2<CR>", opt)
-map("i", "<A-Up>", ":m-2<CR>", opt)
+map("i", "<A-Up>", "<ESC>:m-2<CR>", opt)
 map("n", "<A-Down>", ":m+1<CR>", opt)
-map("i", "<A-Down>", ":m+1<CR>", opt)
+map("i", "<A-Down>", "<ESC>:m+1<CR>", opt)
 
 
 local pluginKeys = {}
