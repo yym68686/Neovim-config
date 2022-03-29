@@ -2,7 +2,7 @@ require'nvim-treesitter.configs'.setup {
   -- 安装 language parser
   -- :TSInstallInfo 命令查看支持的语言
   ensure_installed = {"html", "vim", "lua", "c", "cpp", "markdown"},
-  -- 启用代码高亮功能
+  -- 启用代码高亮功能 TSBufToggle highlight
   highlight = {
     enable = true,
     additional_vim_regex_highlighting = false

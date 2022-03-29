@@ -6,7 +6,6 @@ apt -y install software-properties-common
 add-apt-repository ppa:neovim-ppa/stable
 apt install -y neovim
 ```
-
 将vim命令重定向到nvim
 ```
 echo alias vim=nvim >> ~/.bashrc

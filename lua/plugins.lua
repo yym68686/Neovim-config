@@ -8,6 +8,9 @@ return require('packer').startup(function()
   }
   -- nord theme
   use 'shaunsingh/nord.nvim'
+  -- onedark
+  use 'joshdick/onedark.vim'
+	
   -- nvim-tree (新增)
   use {
       'kyazdani42/nvim-tree.lua',

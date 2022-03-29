@@ -5,7 +5,8 @@ lua require('keybindings')
 " Packer插件管理
 lua require('plugins')
 "set background=dark
-colorscheme gruvbox
+"colorscheme gruvbox
+colorscheme onedark
 "colorscheme nord
 " 插件配置
 lua require('plugin-config/nvim-tree')
