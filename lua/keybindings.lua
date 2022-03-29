@@ -23,7 +23,7 @@ map("n", "so", "<C-w>o", opt) -- close others
 
 -- 比例控制（不常用，因为支持鼠标拖拽）
 map("n", "s>", ":vertical resize +20<CR>", opt)
-map("n", "s<", ":vertical resize -20<CR>", opt)
+map("n", "s<", ":verical resize -20<CR>", opt)
 map("n", "s=", "<C-w>=", opt)
 map("n", "sj", ":resize +10<CR>",opt)
 map("n", "sk", ":resize -10<CR>",opt)
@@ -36,5 +36,9 @@ map("n", "<A-l>", "<C-w>l", opt)
 -- nvimTree
 map('n', '<A-m>', ':NvimTreeToggle<CR>', opt)
 -- bufferline 左右Tab切换
-map("n", "<C-h>", ":BufferLineCyclePrev<CR>", opt)
-map("n", "<C-l>", ":BufferLineCycleNext<CR>", opt)
+map("n", "<C-PageUP>", ":BufferLineCyclePrev<CR>", opt)
+map("n", "<C-PageDown>", ":BufferLineCycleNext<CR>", opt)
+map("n", "<M-S-Down>", "yyp", opt)
+map("n", "<M-S-Up>", "yyP", opt)
+map("n", "<A-Up>", ":m-2<CR>", opt)
+map("n", "<A-Down>", ":m+1<CR>", opt)
