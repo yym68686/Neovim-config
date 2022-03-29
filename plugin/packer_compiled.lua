@@ -124,6 +124,11 @@ _G.packer_plugins = {
     path = "/root/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
+  ["vim-smoothie"] = {
+    loaded = true,
+    path = "/root/.local/share/nvim/site/pack/packer/start/vim-smoothie",
+    url = "https://github.com/psliwka/vim-smoothie"
+  },
   ["vim-terminal-help"] = {
     loaded = true,
     path = "/root/.local/share/nvim/site/pack/packer/start/vim-terminal-help",

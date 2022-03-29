@@ -24,4 +24,6 @@ return require('packer').startup(function()
   use {'neovim/nvim-lspconfig', 'williamboman/nvim-lsp-installer'}
   -- terminal
   use {'skywind3000/vim-terminal-help'}
+  -- 平滑滚动
+  use 'psliwka/vim-smoothie'
 end)
