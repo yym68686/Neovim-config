@@ -2,7 +2,7 @@
 
 安装Neovim
 ```
-apt -y install software-properties-common
+apt -y install software-properties-common wget unzip
 add-apt-repository ppa:neovim-ppa/stable
 apt install -y neovim
 ```

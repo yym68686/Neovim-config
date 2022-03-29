@@ -12,5 +12,7 @@ colorscheme onedark
 lua require('plugin-config/nvim-tree')
 lua require('plugin-config/bufferline')
 lua require('plugin-config/nvim-treesitter')
-" lua require('lsp/setup')
+lua require('lsp/setup')
+lua require('lsp/nvim-cmp')
 set nolist
+set clipboard+=unnamedplus
