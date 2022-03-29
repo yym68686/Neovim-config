@@ -118,6 +118,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/root/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
+  },
+  ["vim-terminal-help"] = {
+    loaded = true,
+    path = "/root/.local/share/nvim/site/pack/packer/start/vim-terminal-help",
+    url = "https://github.com/skywind3000/vim-terminal-help"
   }
 }
 

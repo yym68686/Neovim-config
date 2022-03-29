@@ -19,4 +19,6 @@ return require('packer').startup(function()
   use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
   -- lspconfig
   use {'neovim/nvim-lspconfig', 'williamboman/nvim-lsp-installer'}
+  -- terminal
+  use {'skywind3000/vim-terminal-help'}
 end)
